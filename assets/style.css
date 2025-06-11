@@ -10,6 +10,9 @@ header, footer {
   background-color: #ecb98a;
   color: white;
   padding: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 nav a {
