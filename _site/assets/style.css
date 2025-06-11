@@ -34,19 +34,23 @@ header, footer {
 
 nav a {
   color: #e76f51;
+  font-family: Brush Script MT, cursive;
   margin-right: 1em;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 15px;
   border: 5px solid #791331;
   background: #f9e6d0;
   padding: 15px;
   width: 200px;
   height: 150px;
   box-shadow: 4px 4px 8px rgba(121, 19, 49, 0.4);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 nav a:hover {
   color: #f9e6d0;
+  font-family: Brush Script MT, cursive;
   margin-right: 1em;
   text-decoration: none;
   border-radius: 25px;
@@ -56,10 +60,14 @@ nav a:hover {
   width: 200px;
   height: 150px;
   box-shadow: 4px 4px 8px rgba(121, 19, 49, 0.4);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .main-content {
-	height: 100%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 	width: 60em;
 	background: #f9e6d0;
 	border-radius: 25px;
@@ -67,14 +75,29 @@ nav a:hover {
 	box-shadow: 4px 4px 8px rgba(121, 19, 49, 0.4);
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
-	padding-top: 30px;
+	margin-bottom: 0px;
+	padding-top: 10px;
 	padding-right: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	padding-left: 30px;
+	flex: 1;
 }
 
+.line-break {
+	height: 1px;
+	width: 60em;
+	border: 3px solid #f7ad55;
+	border-radius: 25px;
+	background: #f7ad55;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+}
 main {
   flex: 1;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
 }

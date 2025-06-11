@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Strona główna
+title: SheepHog Games - Home
 ---
 
-# Witamy!
+# A modern approach to game development
 
-To jest nasza strona o projektach gier indie. Zobacz nasze [projekty](/projekty).
+Currently under development: FOCA BOI  
+Description: A game about owning a modern retro handheld console  
+Platform: Steam  
+Release date: TBA  
+
+
