@@ -6,6 +6,22 @@ body {
   padding: 0;
 }
 
+.site-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
 header, footer {
   background-color: #ecb98a;
   color: white;
