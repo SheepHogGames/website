@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #f9e6d0;
   color: #333333;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,7 +9,6 @@ body {
 .site-header {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 20px;
 }
 
@@ -23,7 +22,7 @@ body {
 }
 
 header, footer {
-  background-color: #ecb98a;
+  background-color: #f9e6d0;
   color: white;
   padding: 1em;
   justify-content: center;
