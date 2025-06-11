@@ -31,9 +31,15 @@ header, footer {
 }
 
 nav a {
-  color: white;
+  color: #e76f51;
   margin-right: 1em;
   text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid #791331;
+  background: #f9e6d0;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 main {
