@@ -9,4 +9,4 @@ Currently under development: FOCA BOI
 Description: A game about owning a modern retro handheld console  
 Platform: Steam  
 Release date: TBA  
-<img src="/assets/FOCA_BOI_Console.png" class="centered-img" alt="FOCA BOI console concept art" width="500" height="auto">
+<img src="{{ site.baseurl }}/assets/FOCA_BOI_Console.png" class="centered-img" alt="FOCA BOI console concept art" width="500" height="auto">
